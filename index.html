@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="background-image">
+        <img src="photos/question_marks_background.jpg">
+    </div>
+    <div class="quiz-app">
+        <div class="test-info">
+            <div class="subj-cat"><h3>Category: Math</h3></div>
+            <div class="questions-count">
+                <h3>
+                    Quistions Count: <span class="qs-count">10</span>
+                </h3>
+            </div>
+        </div>
+        <div class="question-container">
+            <div class="question-div">
+                
+            </div>
+            <div class="answers"></div>
+        </div>
+        <div class="submit-btn">
+            <button type="submit">Submit</button>
+        </div>
+        <div class="features">
+            <div class="bullets-container">
+                 <!-- <span class="bullet on"></span>
+                <span class="bullet"></span>
+                <span class="bullet"></span>
+                <span class="bullet"></span>
+                <span class="bullet"></span>
+                <span class="bullet"></span>
+                <span class="bullet"></span>
+                <span class="bullet"></span>
+                <span class="bullet"></span>
+                <span class="bullet"></span> -->
+            </div>
+            <div class="timer">
+                <span class="timer-m">02</span> : <span class="timer-s">45</span> 
+            </div>
+        </div> 
+        <div class="results" style="display: none;">
+            <div class="title"><h2>Exam Details</h2></div>
+            <div class="mark-percent">
+                <div class="mark-parent">
+                    <div class="mark"></div>
+                </div>
+            </div>
+            <div class="exam-details">
+                <div class="mark-percent-det det">
+                    <h3>Mark By Percent</h3><h4>100%</h4>
+                </div>
+                <div class="mark-text-det det">
+                    <h3>Rate</h3><h4></h4>
+                </div>
+                <div class="mark-det det">
+                    <h3>Mark By Numbers</h3><h4></h4>
+                </div>
+                <div class="total-questions-det det">
+                    <h3>Questions Count</h3><h4></h4>
+                </div>
+                <div class="right-answers-det det">
+                    <h3>Right Answers</h3><h4>9</h4>
+                </div>
+                <div class="incorrect-answers-det det">
+                    <h3 class="lch">Incorrect Answers</h3><h4 class="lch">1</h4>
+                </div>
+            </div>
+            <div class="result-buttons">
+                <button disabled>Exit</button>
+                <button class="resolve-btn">Resolve The Exam</button>
+            </div>
+        </div>
+        <div class="custom-line"></div>
+        <div class="buttons">
+            <button disabled>Exit</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
